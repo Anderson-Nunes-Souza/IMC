@@ -6,7 +6,7 @@ const altura = parseFloat(readline.question('Qual é a sua altura em metros? '))
 //IMC = Peso / Altura²
 const imc = peso / (altura * altura);
 
-//console.log(`Seu IMC é ${imc.toFixed(2)}.`);
+console.log(`Seu IMC é ${imc.toFixed(2)}.`);
 
 if (imc <=18.5) {
  //Magreza, quando o resultado é menor que 18,5 kg/m2;
